@@ -6,7 +6,7 @@ RUN apt-get update && \
   apt-get update -y  && \
   # install all dependencies
   apt-get install -y --no-install-recommends \
-  build-essential python3.6 python3.6-dev python3-pip \
+  build-essential python3.6 python3.6-dev python3-pip python3-setuptools \
   libaio-dev && \
   # remove temp files
   apt-get clean && \
